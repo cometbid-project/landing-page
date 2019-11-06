@@ -1,0 +1,77 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("../img/galerie-min.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#footer {
+  background: url("../img/lagos.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  footer {
+    height: auto !important;
+  }
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #24355c;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+
+.social {
+  /* */
+}
+
+.social li .fab:hover {
+  transition: 1s;
+  transform: scale(1.5);
+  color: #ddd;
+}
+
+.social li .fab { 
+  transition: 0.9s;
+}
